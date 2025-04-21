@@ -27,15 +27,18 @@ for(let i of img){
 }
 
 const button =  document.querySelector('#destroy-all')
-const all = document.querySelectorAll('.feature')
 const row2 = document.querySelectorAll('img')
-for(let i of row2){
+for(let i of row2)
+for(let b of li2)
+for(let a of li)
+    {
 button.addEventListener('click',function(){
-   all[1].style.textDecoration = 'line-through'
-   all[2].style.opacity = '0%'
-    i.style.width = '0%'
+   a.style.textDecoration = 'line-through'
+   b.style.opacity = '0%'
+   i.style.width = '0%'
 })
 }
+
 // const addClickListener(h1){
 //     addClickListener.addEventListener('click',function(){
 // addClickListener.style.color = 'green'
